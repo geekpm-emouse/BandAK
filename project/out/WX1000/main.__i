@@ -1,0 +1,6 @@
+-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --enum_is_int -I..\Source -I..\nrf51822\Include -I..\nrf51822\Include\app_common -I..\nrf51822\Include\ble -I..\nrf51822\Include\ble\ble_services -I..\nrf51822\Include\ble\softdevice -I..\Source\inc -I..\Source\algorithm_inc --c99
+-I E:\code\BandAK\project\RTE
+-I D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.4\Device\Include
+-I D:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="513" -DNRF51 -DNRF51 -DNRF51822_QFAA_CA -DDEBUG_NRF_USER -DWX1000
+-o .\out\wx1000\main.o --omf_browse .\out\wx1000\main.crf --depend .\out\wx1000\main.d "..\Source\src\main.c"
